@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unity .gitignore Template
 # Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
 # Last synced: 2026-07-02
@@ -6,6 +7,8 @@
 # This template is maintained from the github/gitignore repository
 # and distributed under Creative Commons Zero v1.0 Universal license.
 
+=======
+>>>>>>> 553feb9aeea257d569ff8eb6b60b3c785596170b
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -23,6 +26,7 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+<<<<<<< HEAD
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -30,6 +34,12 @@
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
+=======
+# Memory Profiler generated files
+# MemoryCaptures can get excessive in size
+# They also could contain extremely sensitive data
+/[Mm]emory[Cc]aptures/
+>>>>>>> 553feb9aeea257d569ff8eb6b60b3c785596170b
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
@@ -66,6 +76,10 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+<<<<<<< HEAD
+=======
+.vsconfig
+>>>>>>> 553feb9aeea257d569ff8eb6b60b3c785596170b
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -76,11 +90,24 @@ ExportedObj/
 sysinfo.txt
 
 # Mono auto generated files
+<<<<<<< HEAD
 mono_crash.*
 
 # Builds
 *.apk
 *.aab
+=======
+.dirstamp
+mono_crash.*
+tmpinst-dir.stamp
+
+# Builds
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+*.apk
+*.aab
+*.obb
+>>>>>>> 553feb9aeea257d569ff8eb6b60b3c785596170b
 *.unitypackage
 *.unitypackage.meta
 *.app
@@ -88,6 +115,7 @@ mono_crash.*
 # Crashlytics generated file
 crashlytics-build.properties
 
+<<<<<<< HEAD
 # TestRunner generated files
 InitTestScene*.unity*
 
@@ -109,6 +137,58 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+=======
+# Blender generated backup files
+/[Aa]ssets/**/*.blend1
+/[Aa]ssets/**/*.blend1.meta
+
+# TouchDesigner generated cache files
+/[Aa]ssets/**/TDImportCache/
+/[Aa]ssets/**/TDImportCache.meta
+
+# Unity Crash Recovery generated files
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Addressables default ignores, before user customizations
+# By default, Addressables content builds will generate addressables_content_state.bin
+# files in platform-specific subfolders, for example:
+# /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
+/[Aa]ssets/AddressableAssetsData/*/addressables_content_state.bin
+/[Aa]ssets/AddressableAssetsData/*/addressables_content_state.bin.meta
+/[Aa]ssets/AddressableAssetsData/link.xml
+/[Aa]ssets/AddressableAssetsData/link.xml.meta
+/[Aa]ssets/Addressables_Temp/
+/[Aa]ssets/Addressables_Temp.meta
+/[Aa]ssets/StreamingAssets/aa/
+/[Aa]ssets/StreamingAssets/aa.meta
+/ServerData/
+
+# EDM4U generated files
+/[Aa]ssets/GeneratedLocalRepo/
+/[Aa]ssets/GeneratedLocalRepo.meta
+
+# Android Gradle generated files
+/[Aa]ssets/Plugins/Android/**/*.gradle.backup*
+/[Aa]ssets/Plugins/Android/**/local.properties
+
+# Test Framework generated files
+/[Aa]ssets/Resources/PerformanceTestRunInfo.json
+/[Aa]ssets/Resources/PerformanceTestRunInfo.json.meta
+/[Aa]ssets/Resources/PerformanceTestRunSettings.json
+/[Aa]ssets/Resources/PerformanceTestRunSettings.json.meta
+/[Aa]ssets/InitTestScene*.unity
+/[Aa]ssets/InitTestScene*.unity.meta
+
+# Visual Scripting auto-generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+
+# UI Toolkit auto generated files
+/UIElementsSchema/
+>>>>>>> 553feb9aeea257d569ff8eb6b60b3c785596170b
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
